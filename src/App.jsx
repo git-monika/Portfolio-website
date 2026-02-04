@@ -1,4 +1,3 @@
-// src/App.jsx
 
 import AppRoutes from "./routes/AppRoutes";
 import Layout from "./components/layout/Layout";
