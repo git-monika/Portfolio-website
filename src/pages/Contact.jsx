@@ -1,4 +1,4 @@
-import Contact from "../section/Contact";
+import Contact from "../components/section/Contact";
 
 const ContactPage = () => {
   return (

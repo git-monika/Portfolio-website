@@ -1,10 +1,10 @@
-import Hero from "../section/Hero";
-import ResumeSection from "../section/ResumeSection";
-import About from "../section/About";
-import Education from "../section/Education";
-import Skills from "../section/Skills";
-import Projects from "../section/Projects";
-import Contact from "../section/Contact";
+import Hero from "../components/section/Hero";
+
+import About from "../components/section/About";
+import Education from "../components/section/Education";
+import Skills from "../components/section/Skills";
+import Projects from "../components/section/Projects";
+import Contact from "../components/section/Contact";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Skills />
       <Projects/>
       <Contact/>
-      <ResumeSection />
+      
     </div>
   );
 };

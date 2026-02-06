@@ -16,6 +16,7 @@ const AppRoutes = () => {
       <Route path="/education" element={<Education/>} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
+     
     </Routes>
   );
 };
