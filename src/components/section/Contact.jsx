@@ -31,22 +31,22 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/git-monika"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-gray-300 hover:text-cyan-400"
             >
               <FaGithub className="text-cyan-400 text-lg" />
-              github.com/yourusername
+              https://github.com/git-monika
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/monika-choudhary-0212decmber/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-gray-300 hover:text-cyan-400"
             >
               <FaLinkedin className="text-cyan-400 text-lg" />
-              linkedin.com/in/yourusername
+              https://www.linkedin.com/in/monika-choudhary-0212decmber/
             </a>
           </div>
         </div>

@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// import profileR from "../assets/image/profileR.jpeg"
+import PortfolioImage from "../../assets/image/PortfolioImage.png";
 
 
-const Hero = ({ name }) => {
+
+function Hero({ name }) {
   const [text, setText] = useState("");
   const fullText = "Frontend Developer | React Enthusiast";
 
@@ -59,14 +60,13 @@ const Hero = ({ name }) => {
         <div className="flex justify-center">
           <div className="w-64 h-64 bg-cyan-500 rounded-full opacity-80 blur-3xl absolute"></div>
           <img
-            src=""
+            src={PortfolioImage}
             alt="Profile"
-            className="w-64 h-64 rounded-full border-4 border-cyan-400 relative"
-          />
+            className="w-64 h-64 rounded-full border-4 border-cyan-400 relative" />
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default Hero;

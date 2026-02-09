@@ -4,6 +4,7 @@ import {
   SiSpringboot, SiMysql, SiPostgresql 
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import PortfolioImage from "../../assets/image/PortfolioImage.png";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         {/* Left Side - Image / Illustration */}
         <div className="flex justify-center">
           <img
-            src="/assets/images/profile.jpg"
+            src={PortfolioImage}
             alt="Profile"
             className="w-72 h-72 rounded-lg border-2 border-cyan-400 shadow-lg"
           />
