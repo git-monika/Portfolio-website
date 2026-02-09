@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+// import FlowerImage from "../../assets/image/FlowerImage.png"
 
 const Projects = () => {
   const [filter, setFilter] = useState("All");
@@ -12,17 +13,17 @@ const Projects = () => {
       description:
         "A responsive website showcasing different types of flowers with gallery, details page, and contact form.",
       tech: "React, Tailwind, CSS",
-      image: "/assets/images/projects/flower.jpg",
+      image: "../../assets/image/FlowerImage.png",
       liveLink: "https://your-flower-website-link.com",
       githubLink: "https://github.com/yourusername/flower-website",
     },
     {
       id: 2,
       title: "E-Commerce App",
-      category: "Full Stack",
+      category: "React",
       description:
         "Online shopping platform with product listing, cart, checkout, and user authentication.",
-      tech: "React, Java, Spring Boot, MySQL",
+      tech: "React, API, MySQL",
       image: "/assets/images/projects/ecommerce.jpg",
       liveLink: "https://your-ecommerce-link.com",
       githubLink: "https://github.com/yourusername/ecommerce-app",

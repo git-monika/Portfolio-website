@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id="about" className="bg-gray-900 text-white py-16 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Left Side - Image / Illustration */}
+        
         <div className="flex justify-center">
           <img
             src={PortfolioImage}
@@ -19,7 +19,6 @@ const About = () => {
           />
         </div>
 
-        {/* Right Side - Content */}
         <div>
           <h2 className="text-cyan-400 text-xl">About Me</h2>
           <h1 className="text-3xl md:text-4xl font-bold mt-2">
@@ -39,7 +38,6 @@ const About = () => {
             but also intuitive and visually appealing.
           </p>
 
-          {/* Skills Summary WITH ICONS */}
           <div className="mt-6 grid grid-cols-2 gap-6 text-sm">
             <div>
               <h3 className="text-cyan-400 font-semibold mb-2">Frontend</h3>
