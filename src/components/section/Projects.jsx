@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-// import FlowerImage from "../../assets/image/FlowerImage.png"
+import FlowerImage from "../../assets/image/FlowerImage.png";
+import BakeryImage from "../../assets/image/BakeryImage.png";
+import eCommerceImage from "../../assets/image/eCommerceImage.png";
+import LibraryImage from "../../assets/image/LibraryImage.png";
+import MoviesImage from "../../assets/image/MoviesImage.png";
+import portfolio from "../../assets/image/portfolio.png";
 
 const Projects = () => {
   const [filter, setFilter] = useState("All");
@@ -13,7 +18,7 @@ const Projects = () => {
       description:
         "A responsive website showcasing different types of flowers with gallery, details page, and contact form.",
       tech: "React, Tailwind, CSS",
-      image: "../../assets/image/FlowerImage.png",
+      image: FlowerImage,
       liveLink: "https://your-flower-website-link.com",
       githubLink: "https://github.com/yourusername/flower-website",
     },
@@ -24,7 +29,7 @@ const Projects = () => {
       description:
         "Online shopping platform with product listing, cart, checkout, and user authentication.",
       tech: "React, API, MySQL",
-      image: "/assets/images/projects/ecommerce.jpg",
+      image: eCommerceImage,
       liveLink: "https://your-ecommerce-link.com",
       githubLink: "https://github.com/yourusername/ecommerce-app",
     },
@@ -35,7 +40,7 @@ const Projects = () => {
       description:
         "A beautiful bakery website with menu, order form, and image gallery.",
       tech: "HTML, CSS, JavaScript, React",
-      image: "/assets/images/projects/bakery.jpg",
+      image: BakeryImage,
       liveLink: "https://your-bakery-link.com",
       githubLink: "https://github.com/yourusername/bakery-website",
     },
@@ -46,7 +51,7 @@ const Projects = () => {
       description:
         "System to manage books, students, and transactions with admin panel.",
       tech: "Java, Spring Boot, MySQL, React",
-      image: "/assets/images/projects/library.jpg",
+      image: LibraryImage,
       liveLink: "https://your-library-link.com",
       githubLink: "https://github.com/yourusername/library-management",
     },
@@ -57,7 +62,7 @@ const Projects = () => {
       description:
         "Personal developer portfolio showcasing skills, projects, and resume.",
       tech: "React, Tailwind, React Router",
-      image: "/assets/images/projects/portfolio.jpg",
+      image: portfolio,
       liveLink: "https://your-portfolio-link.com",
       githubLink: "https://github.com/yourusername/portfolio",
     },
@@ -68,7 +73,7 @@ const Projects = () => {
       description:
         "Movie search app using IMDB API with search, filter, and movie details page.",
       tech: "React, API, Tailwind",
-      image: "/assets/images/projects/movie.jpg",
+      image: MoviesImage,
       liveLink: "https://your-movie-app-link.com",
       githubLink: "https://github.com/yourusername/movie-search-app",
     },
